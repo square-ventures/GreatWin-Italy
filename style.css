@@ -64,7 +64,7 @@ picture {
   }
 }
 
-@media (min-width: 650px) and (orientation: portrait) {
+@media (min-width: 650px) {
   .logo {
     width: 206px;
   }
@@ -117,10 +117,10 @@ picture {
   }
 }
 
-@media (min-width: 650px) and (orientation: portrait) {
+@media (min-width: 650px) {
   .main-area-left-banner {
-    width: 497px;
-    height: 390px;
+    width: 402px;
+    height: 316px;
   }
 
   .main-area {
@@ -166,8 +166,8 @@ picture {
 
 @media (min-width: 650px) {
   .main-area-text-and-button-area-description {
-    width: 568px;
-    height: 130px;
+    width: 520px;
+    height: 119px;
   }
 
   .main-area {
@@ -195,8 +195,8 @@ picture {
 
 @media (min-width: 650px) and (orientation: portrait) {
   .main-area-text-and-button-button {
-    width: 304px;
-    height: 72px;
+    width: 234px;
+    height: 56px;
   }
 }
 
@@ -233,16 +233,19 @@ picture {
   gap: 6px;
 }
 
-@media (min-width: 460px) and (orientation: portrait) {
+@media (min-width: 460px) {
   .steps {
     gap: 48px;
   }
 }
 
-@media (min-width: 650px) and (orientation: portrait) {
+@media (min-width: 650px) {
   .steps {
     gap: 48px;
     margin-top: 24px;
+  }
+  .footer-text {
+    padding-inline: 30px;
   }
 }
 
@@ -307,7 +310,7 @@ picture {
   }
 }
 
-@media (min-width: 650px) and (orientation: portrait) {
+@media (min-width: 650px) {
   .step-number {
     width: 196px;
     height: 159px;
@@ -332,7 +335,7 @@ picture {
   }
 }
 
-@media (min-width: 650px) and (orientation: portrait) {
+@media (min-width: 650px) {
   .step-text {
     width: 186px;
     height: 44px;
@@ -382,6 +385,7 @@ picture {
 .payment {
   height: 16px;
   margin-left: 12px;
+  opacity: 0.7;
 }
 
 .footer {
@@ -416,9 +420,15 @@ picture {
     width: 207px;
     height: 44px;
   }
+  .payment {
+    height: 24px;
+  }
+  .payments {
+    gap: 32px;
+  }
 }
 
 .terms-condition:hover {
   cursor: pointer;
 }
-/*# sourceMappingURL=style.css.map */
+
